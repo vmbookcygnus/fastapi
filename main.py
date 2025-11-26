@@ -632,7 +632,7 @@ async def booking_confirmation2(data: BookingDataMail):
 
     else:
         # Open and read the HTML file  vocuherMail.html => BulkVoucherMail.html
-        with open("BulkVoucherMail.html", "r") as file:
+        with open("voucherMail.html", "r") as file:
             html_content = file.read()
 
         table = """<table style="border-collapse: collapse; width: 100%; border: 0px solid #dddddd; font-size:16px;">
